@@ -12,6 +12,7 @@
             <div>
                 <ul class = "nav-links">
                     <li><a href = "#about">About</a></li>
+                    <li><a href = "#skills">Skills</a></li>
                     <li><a href = "#experience">Experience</a></li>
                     <li><a href = "#projects">Projects</a></li>
                     <li><a href = "#contact">Contact</a></li>
@@ -28,6 +29,7 @@
             </div>
             <div class="menu-links">
                 <li><a href = "#about" onclick="toggleMenu()">About</a></li>
+                <li><a href = "#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href = "#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href = "#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href = "#contact" onclick="toggleMenu()">Contact</a></li>
@@ -41,14 +43,14 @@
         <div class = "section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Paul Davis</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p class="section__text__p2">Computer Science and Math Student</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./CV.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
             </div>
             <div id="socials-container">
-                <img src="./pictures/linkedin.png" alt="LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/paul-davis-069410284/'"></img>
-                <img src="./pictures/github.png" alt="Github Profile" class="icon" onclick="location.href='https://github.com/pau1davis'"></img>
+                <img src="./pictures/linkedin.png" alt="LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/paul-davis-069410284/'" style="filter: invert(100%)"></img>
+                <img src="./pictures/github.png" alt="Github Profile" class="icon" onclick="location.href='https://github.com/pau1davis'" style="filter: invert(100%)"></img>
             </div>
         </div>
     </section>
@@ -65,15 +67,16 @@
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./pictures/experience.png" alt="Experience Icon" class="icon"/>
-                       <h3>Experience</h3>
+                    <!--<div class="details-container">
+                        <img src="./pictures/skills.png" alt="skills Icon" class="icon"/>
+                       <h3>Work skills</h3>
                        <p>
-                            2+ years <br />Frontend Development
+                             <br />
+                            
                        </p>
-                    </div>
+                    </div> -->
                     <div class="details-container">
-                        <img src="./pictures/education.png" alt="Education Icon" class="icon"/>
+                        <img src="./pictures/education.png" alt="Education Icon" class="icon" />
                         <h3>Education</h3>
                        <p>
                             University of Tennessee <br />Computer Science and Math Student
@@ -82,177 +85,199 @@
                 </div>
                 <div class="text-container">   
                     <p>
-                        Paul Davis is currently a Computer Science student at UT Knoxville. He has
+                        I am currently a Computer Science student at UT Knoxville with
 interests in Software Engineering, AI Development/Research, and Biomedical
-Informatics. He is eager to expand his skillset in all areas of scientic research
+Informatics. I am eager to expand my skillset in all areas of scientic research
 and computer science.
                     </p>
                 </div>
             </div> 
         </div>
-        <img src="./pictures/downArrow.png" alt="Down Arrow" class="icon arrow" onclick="location.href='./#experience'" />
+        <img src="./pictures/finalArrow.jpg" alt="Down Arrow" class="icon arrow" onclick="location.href='./#skills'" />
     </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-            <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
             <div class="about-containers">
+                
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="skills-sub-title">Software Engineering</h2>
                     <div class="article-container">
                         <article>
-                           <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                           <img src="./pictures/checkmark.png" alt="skills Icon" class="icon" />
 
                            <div>
-                                <h3>HTML</h3>
-                                <p>Experience</p>
+                                <h3>HTML & CSS</h3>
+                                <p>Intermediate</p>
                            </div>
                         </article>
                         <article>
-                            <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <img src="./pictures/checkmark.png" alt="skills Icon" class="icon"/>
  
                             <div>
-                                 <h3>Pooping</h3>
-                                 <p>Experience</p>
+                                 <h3>JavaScript</h3>
+                                 <p>Basic</p>
                             </div>
                          </article>
                          <article>
-                            <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <img src="./pictures/checkmark.png" alt="skills Icon" class="icon" />
  
                             <div>
-                                 <h3>Shitting</h3>
-                                 <p>Experience</p>
+                                 <h3>C/C++</h3>
+                                 <p>Skilled</p>
                             </div>
                          </article>
                          <article>
-                            <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <img src="./pictures/checkmark.png" alt="skills Icon" class="icon" />
  
                             <div>
-                                 <h3>Bruh</h3>
-                                 <p>Experience</p>
+                                 <h3>Java</h3>
+                                 <p>Intermediate</p>
                             </div>
                          </article>
                          <article>
-                            <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <img src="./pictures/checkmark.png" alt="skills Icon" class="icon" />
  
                             <div>
-                                 <h3>Moment</h3>
-                                 <p>Experience</p>
+                                 <h3>Python</h3>
+                                 <p>Skilled</p>
                             </div>
                          </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="skills-sub-title">AI/Machine Learning</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                            <img src="./pictures/checkmark.png" alt="skills Icon" class="icon" />
  
                             <div>
-                                 <h3>HTML</h3>
-                                 <p>Experience</p>
+                                 <h3>NumPy</h3>
+                                 <p>Intermediate</p>
                             </div>
                          </article>
                          <article>
-                             <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                             <img src="./pictures/checkmark.png" alt="skills Icon" class="icon"/>
   
                              <div>
-                                  <h3>Pooping</h3>
-                                  <p>Experience</p>
+                                  <h3>Pandas</h3>
+                                  <p>Intermediate</p>
                              </div>
                           </article>
                           <article>
-                             <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                             <img src="./pictures/checkmark.png" alt="skills Icon" class="icon"/>
   
                              <div>
-                                  <h3>Shitting</h3>
-                                  <p>Experience</p>
+                                  <h3>Scikit-learn</h3>
+                                  <p>Skilled</p>
                              </div>
                           </article>
                           <article>
-                             <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                             <img src="./pictures/checkmark.png" alt="skills Icon" class="icon"/>
   
                              <div>
-                                  <h3>Bruh</h3>
-                                  <p>Experience</p>
+                                  <h3>OpenAI API</h3>
+                                  <p>Intermediate</p>
                              </div>
                           </article>
                           <article>
-                             <img src="./pictures/checkmark.png" alt="Experience Icon" class="icon"/>
+                             <img src="./pictures/checkmark.png" alt="skills Icon" class="icon"/>
   
                              <div>
-                                  <h3>Moment</h3>
-                                  <p>Experience</p>
+                                  <h3>Langchain</h3>
+                                  <p>Basic</p>
                              </div>
                           </article>
                     </div>
                 </div>
             </div>
         </div>
-        <img src="./pictures/downArrow.png" alt="Down Arrow" class="icon arrow" onclick="location.href='./#projects'" />
+        <img src="./pictures/finalArrow.jpg" alt="Down Arrow" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-container">
+             
+              <div class="experience-box">
+
+                <h3>
+                  <img src="./pictures/experience.png" alt="Profile Picture" class="icon">
+                  AI Research Intern</h3>
+                
+                <p><b>Vanderbilt Biomedical Informatics Summer Program</b> – NSF funded research in AI, specifically ChatGPT's API. Developed a website using Streamlit
+                  servers in Python and determined that ChatGPT's API is capable of translating
+                  JSON formatted data into data accepted by a playground database, and
+                  sending said data to the database</p>
+              </div>
+      
+              <div class="experience-box">
+                <h3><img src="./pictures/experience.png" alt="Profile Picture" class="icon" >
+                  Material Science/Machine Learning Researcher</h3>
+                <p>
+                   <b>University of Tennessee Material Science Lab</b> - Worked on using machine learning to analyze models produced by additive manufacturing. For this project, I used Arduino sensors to collect data, such as heat, light, and distance signatures, and then used that data to train and test a supervised learning machine learning algorithm.
+                </p>
+              </div>
+          
+                            
+              
+            </div>
+            <img src="./pictures/finalArrow.jpg" alt="Down Arrow" class="icon arrow" onclick="location.href='./#projects'" />                  
+           
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
+        <div class="skills-details-container">
           <div class="about-containers">
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./pictures/project-1.png"
+                  src="./pictures/betterA1C.png"
                   alt="Project 1"
                   class="project-img"
                 />
               </div>
-              <h2 class="experience-sub-title project-title">Project One</h2>
+              <h2 class="skills-sub-title project-title">A1C Chatbot</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
+                  onclick="location.href='https://github.com/pau1davis/A1C-Chatbot'"
                 >
                   Github
                 </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
-                >
-                  Live Demo
-                </button>
+                
               </div>
             </div>
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./pictures/project-1.png"
+                  src="./pictures/tryagainworddice.png"
                   alt="Project 2"
                   class="project-img"
                 />
               </div>
-              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <h2 class="skills-sub-title project-title">Word Dice</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
+                  onclick="location.href='https://github.com/pau1davis/Word-Dice-Game'"
                 >
                   Github
                 </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
-                >
-                  Live Demo
-                </button>
+                
               </div>
             </div>
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="./pictures/project-1.png"
+                  src="./pictures/Screenshot 2025-04-18 at 10.32.46 PM.png"
                   alt="Project 3"
                   class="project-img"
                 />
               </div>
-              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <h2 class="skills-sub-title project-title">Personal Website</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
@@ -260,18 +285,13 @@ and computer science.
                 >
                   Github
                 </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/'"
-                >
-                  Live Demo
-                </button>
+               
               </div>
             </div>
           </div>
         </div>
         <img
-          src="./pictures/downArrow.png"
+          src="./pictures/finalArrow.jpg"
           alt="Arrow icon"
           class="icon arrow"
           onclick="location.href='./#contact'"
@@ -287,7 +307,7 @@ and computer science.
             </div>
         
             <div class="contact-info-container">
-                <img src="./pictures/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <img src="./pictures/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon" >
                 <p><a href="https://www.linkedin.com/in/paul-davis-069410284/">LinkedIn</a></p>
             </div>
         </div>
@@ -297,6 +317,7 @@ and computer science.
             <div class="nav-links-container">
                 <ul class = "nav-links">
                     <li><a href = "#about">About</a></li>
+                    <li><a href = "#skills">Skills</a></li>
                     <li><a href = "#experience">Experience</a></li>
                     <li><a href = "#projects">Projects</a></li>
                     <li><a href = "#contact">Contact</a></li>
