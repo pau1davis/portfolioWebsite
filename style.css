@@ -388,7 +388,9 @@ article .icon {
     color: black;
     background-color: white;
     border-radius: 2rem;
+   
     border: white 0.1rem solid;
+    border-color: rgb(163,163,163);
     padding: 20px;
     box-shadow: 0px 4px 8px gray;
     display: flex;
